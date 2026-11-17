@@ -1,0 +1,185 @@
+
+{
+  "schemaVersion": 1,
+  "deviceProperties": [
+  ],
+  "trace_id": "D54D65B36BA9443EA788E3D83172E8E9",
+  "traceEvents": [
+  {
+    "ph": "X", "cat": "user_annotation", "name": "ProfilerStep#4", "pid": 4120, "tid": 43836,
+    "ts": 3955321939952.948, "dur": 761.100,
+    "args": {
+      "External id": 1,"Record function id": 0, "Ev Idx": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", "name": "aten::matmul", "pid": 4120, "tid": 43836,
+    "ts": 3955321940168.848, "dur": 448.000,
+    "args": {
+      "External id": 2,"Record function id": 0, "Ev Idx": 1
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", "name": "aten::mm", "pid": 4120, "tid": 43836,
+    "ts": 3955321940171.848, "dur": 285.900,
+    "args": {
+      "External id": 3,"Record function id": 0, "Ev Idx": 2
+    }
+  },
+  {
+    "ph": "X", "cat": "user_annotation", "name": "ProfilerStep#5", "pid": 4120, "tid": 43836,
+    "ts": 3955321940767.848, "dur": 193.400,
+    "args": {
+      "External id": 4,"Record function id": 0, "Ev Idx": 3
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", "name": "aten::matmul", "pid": 4120, "tid": 43836,
+    "ts": 3955321940790.348, "dur": 134.000,
+    "args": {
+      "External id": 5,"Record function id": 0, "Ev Idx": 4
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", "name": "aten::mm", "pid": 4120, "tid": 43836,
+    "ts": 3955321940792.948, "dur": 130.200,
+    "args": {
+      "External id": 6,"Record function id": 0, "Ev Idx": 5
+    }
+  },
+  {
+    "ph": "X", "cat": "user_annotation", "name": "ProfilerStep#6", "pid": 4120, "tid": 43836,
+    "ts": 3955321941002.548, "dur": 154.200,
+    "args": {
+      "External id": 7,"Record function id": 0, "Ev Idx": 6
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", "name": "aten::matmul", "pid": 4120, "tid": 43836,
+    "ts": 3955321941019.548, "dur": 93.400,
+    "args": {
+      "External id": 8,"Record function id": 0, "Ev Idx": 7
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", "name": "aten::mm", "pid": 4120, "tid": 43836,
+    "ts": 3955321941021.448, "dur": 90.200,
+    "args": {
+      "External id": 9,"Record function id": 0, "Ev Idx": 8
+    }
+  },
+  {
+    "ph": "X", "cat": "user_annotation", "name": "ProfilerStep#7", "pid": 4120, "tid": 43836,
+    "ts": 3955321941190.548, "dur": 115.200,
+    "args": {
+      "External id": 10,"Record function id": 0, "Ev Idx": 9
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", "name": "aten::matmul", "pid": 4120, "tid": 43836,
+    "ts": 3955321941203.448, "dur": 73.000,
+    "args": {
+      "External id": 11,"Record function id": 0, "Ev Idx": 10
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", "name": "aten::mm", "pid": 4120, "tid": 43836,
+    "ts": 3955321941205.148, "dur": 70.200,
+    "args": {
+      "External id": 12,"Record function id": 0, "Ev Idx": 11
+    }
+  },
+  {
+    "ph": "X", "cat": "user_annotation", "name": "ProfilerStep#8", "pid": 4120, "tid": 43836,
+    "ts": 3955321941327.648, "dur": 71.500,
+    "args": {
+      "External id": 13,"Record function id": 0, "Ev Idx": 12
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", "name": "aten::matmul", "pid": 4120, "tid": 43836,
+    "ts": 3955321941335.548, "dur": 40.900,
+    "args": {
+      "External id": 14,"Record function id": 0, "Ev Idx": 13
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", "name": "aten::mm", "pid": 4120, "tid": 43836,
+    "ts": 3955321941336.448, "dur": 39.500,
+    "args": {
+      "External id": 15,"Record function id": 0, "Ev Idx": 14
+    }
+  },
+  {
+    "ph": "X", "cat": "user_annotation", "name": "ProfilerStep#9", "pid": 4120, "tid": 43836,
+    "ts": 3955321941415.748, "dur": 77.200,
+    "args": {
+      "External id": 16,"Record function id": 0, "Ev Idx": 15
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", "name": "aten::matmul", "pid": 4120, "tid": 43836,
+    "ts": 3955321941423.848, "dur": 44.200,
+    "args": {
+      "External id": 17,"Record function id": 0, "Ev Idx": 16
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", "name": "aten::mm", "pid": 4120, "tid": 43836,
+    "ts": 3955321941425.148, "dur": 42.200,
+    "args": {
+      "External id": 18,"Record function id": 0, "Ev Idx": 17
+    }
+  },
+  {
+    "name": "thread_name", "ph": "M", "ts": 3955321937801.600, "pid": 4120, "tid": 43836,
+    "args": {
+      "name": "thread 43836 ()"
+    }
+  },
+  {
+    "name": "thread_sort_index", "ph": "M", "ts": 3955321937801.600, "pid": 4120, "tid": 43836,
+    "args": {
+      "sort_index": 43836
+    }
+  },
+  {
+    "name": "thread_name", "ph": "M", "ts": 3955321937801.600, "pid": 4120, "tid": 43836,
+    "args": {
+      "name": "thread 43836 ()"
+    }
+  },
+  {
+    "name": "thread_sort_index", "ph": "M", "ts": 3955321937801.600, "pid": 4120, "tid": 43836,
+    "args": {
+      "sort_index": 43836
+    }
+  },
+  {
+    "ph": "X", "cat": "Trace", "ts": 3955321937286.700, "dur": 4228.600,
+    "pid": "Spans", "tid": "PyTorch Profiler",
+    "name": "PyTorch Profiler (0)",
+    "args": {
+      "Op count": 0
+    }
+  },
+  {
+    "name": "process_sort_index", "ph": "M", "ts": 3955321937286.700,
+    "pid": "Spans", "tid": 0,
+    "args": {
+      "sort_index": 536870912
+    }
+  },
+  {
+    "name": "Iteration Start: PyTorch Profiler", "ph": "i", "s": "g",
+    "pid": "Traces", "tid": "Trace PyTorch Profiler", "ts": 3955321937286.700
+  },
+  {
+    "name": "Record Window End", "ph": "i", "s": "g",
+    "pid": "", "tid": "", "ts": 3955321942406.300
+  }
+  ],
+  "traceName": "e:/SKILLS/Course-TinyML/lab1_gpu_basics/outputs/matmul.json",
+  "displayTimeUnit": "ms",
+  "baseTimeNanoseconds": 1790857026000000000
+}

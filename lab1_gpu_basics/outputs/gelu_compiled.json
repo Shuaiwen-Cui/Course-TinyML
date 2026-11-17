@@ -1,0 +1,227 @@
+
+{
+  "schemaVersion": 1,
+  "deviceProperties": [
+  ],
+  "trace_id": "8FC003AD1E3947D1A1BA3456B5842DD8",
+  "traceEvents": [
+  {
+    "ph": "X", "cat": "user_annotation", "name": "ProfilerStep#4", "pid": 4120, "tid": 43836,
+    "ts": 3955327008229.988, "dur": 630.200,
+    "args": {
+      "External id": 4609,"Record function id": 0, "Ev Idx": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", "name": "TorchDynamo Cache Lookup", "pid": 4120, "tid": 43836,
+    "ts": 3955327008254.988, "dur": 5.800,
+    "args": {
+      "External id": 4610,"Record function id": 0, "Ev Idx": 1
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", "name": "Torch-Compiled Region: 0/0", "pid": 4120, "tid": 43836,
+    "ts": 3955327008262.588, "dur": 494.700,
+    "args": {
+      "External id": 4611,"Record function id": 0, "Ev Idx": 2
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", "name": "triton_poi_fused_add_mul_pow_sqrt_tanh_0", "pid": 4120, "tid": 43836,
+    "ts": 3955327008589.488, "dur": 115.500,
+    "args": {
+      "External id": 4612,"Record function id": 0, "Ev Idx": 3
+    }
+  },
+  {
+    "ph": "X", "cat": "user_annotation", "name": "ProfilerStep#5", "pid": 4120, "tid": 43836,
+    "ts": 3955327008922.988, "dur": 198.300,
+    "args": {
+      "External id": 4613,"Record function id": 0, "Ev Idx": 4
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", "name": "TorchDynamo Cache Lookup", "pid": 4120, "tid": 43836,
+    "ts": 3955327008969.888, "dur": 16.500,
+    "args": {
+      "External id": 4614,"Record function id": 0, "Ev Idx": 5
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", "name": "Torch-Compiled Region: 0/0", "pid": 4120, "tid": 43836,
+    "ts": 3955327008988.388, "dur": 109.100,
+    "args": {
+      "External id": 4615,"Record function id": 0, "Ev Idx": 6
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", "name": "triton_poi_fused_add_mul_pow_sqrt_tanh_0", "pid": 4120, "tid": 43836,
+    "ts": 3955327009056.888, "dur": 30.800,
+    "args": {
+      "External id": 4616,"Record function id": 0, "Ev Idx": 7
+    }
+  },
+  {
+    "ph": "X", "cat": "user_annotation", "name": "ProfilerStep#6", "pid": 4120, "tid": 43836,
+    "ts": 3955327009138.088, "dur": 84.800,
+    "args": {
+      "External id": 4617,"Record function id": 0, "Ev Idx": 8
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", "name": "TorchDynamo Cache Lookup", "pid": 4120, "tid": 43836,
+    "ts": 3955327009154.188, "dur": 3.400,
+    "args": {
+      "External id": 4618,"Record function id": 0, "Ev Idx": 9
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", "name": "Torch-Compiled Region: 0/0", "pid": 4120, "tid": 43836,
+    "ts": 3955327009159.288, "dur": 47.100,
+    "args": {
+      "External id": 4619,"Record function id": 0, "Ev Idx": 10
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", "name": "triton_poi_fused_add_mul_pow_sqrt_tanh_0", "pid": 4120, "tid": 43836,
+    "ts": 3955327009181.088, "dur": 18.100,
+    "args": {
+      "External id": 4620,"Record function id": 0, "Ev Idx": 11
+    }
+  },
+  {
+    "ph": "X", "cat": "user_annotation", "name": "ProfilerStep#7", "pid": 4120, "tid": 43836,
+    "ts": 3955327009236.188, "dur": 78.600,
+    "args": {
+      "External id": 4621,"Record function id": 0, "Ev Idx": 12
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", "name": "TorchDynamo Cache Lookup", "pid": 4120, "tid": 43836,
+    "ts": 3955327009251.188, "dur": 2.500,
+    "args": {
+      "External id": 4622,"Record function id": 0, "Ev Idx": 13
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", "name": "Torch-Compiled Region: 0/0", "pid": 4120, "tid": 43836,
+    "ts": 3955327009254.488, "dur": 45.400,
+    "args": {
+      "External id": 4623,"Record function id": 0, "Ev Idx": 14
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", "name": "triton_poi_fused_add_mul_pow_sqrt_tanh_0", "pid": 4120, "tid": 43836,
+    "ts": 3955327009272.588, "dur": 21.000,
+    "args": {
+      "External id": 4624,"Record function id": 0, "Ev Idx": 15
+    }
+  },
+  {
+    "ph": "X", "cat": "user_annotation", "name": "ProfilerStep#8", "pid": 4120, "tid": 43836,
+    "ts": 3955327009325.788, "dur": 86.100,
+    "args": {
+      "External id": 4625,"Record function id": 0, "Ev Idx": 16
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", "name": "TorchDynamo Cache Lookup", "pid": 4120, "tid": 43836,
+    "ts": 3955327009344.588, "dur": 2.400,
+    "args": {
+      "External id": 4626,"Record function id": 0, "Ev Idx": 17
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", "name": "Torch-Compiled Region: 0/0", "pid": 4120, "tid": 43836,
+    "ts": 3955327009347.788, "dur": 48.900,
+    "args": {
+      "External id": 4627,"Record function id": 0, "Ev Idx": 18
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", "name": "triton_poi_fused_add_mul_pow_sqrt_tanh_0", "pid": 4120, "tid": 43836,
+    "ts": 3955327009365.688, "dur": 24.900,
+    "args": {
+      "External id": 4628,"Record function id": 0, "Ev Idx": 19
+    }
+  },
+  {
+    "ph": "X", "cat": "user_annotation", "name": "ProfilerStep#9", "pid": 4120, "tid": 43836,
+    "ts": 3955327009423.188, "dur": 67.500,
+    "args": {
+      "External id": 4629,"Record function id": 0, "Ev Idx": 20
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", "name": "TorchDynamo Cache Lookup", "pid": 4120, "tid": 43836,
+    "ts": 3955327009435.388, "dur": 2.300,
+    "args": {
+      "External id": 4630,"Record function id": 0, "Ev Idx": 21
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", "name": "Torch-Compiled Region: 0/0", "pid": 4120, "tid": 43836,
+    "ts": 3955327009438.488, "dur": 37.500,
+    "args": {
+      "External id": 4631,"Record function id": 0, "Ev Idx": 22
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", "name": "triton_poi_fused_add_mul_pow_sqrt_tanh_0", "pid": 4120, "tid": 43836,
+    "ts": 3955327009454.588, "dur": 15.600,
+    "args": {
+      "External id": 4632,"Record function id": 0, "Ev Idx": 23
+    }
+  },
+  {
+    "name": "thread_name", "ph": "M", "ts": 3955327008058.500, "pid": 4120, "tid": 43836,
+    "args": {
+      "name": "thread 43836 ()"
+    }
+  },
+  {
+    "name": "thread_sort_index", "ph": "M", "ts": 3955327008058.500, "pid": 4120, "tid": 43836,
+    "args": {
+      "sort_index": 43836
+    }
+  },
+  {
+    "name": "thread_name", "ph": "M", "ts": 3955327008058.500, "pid": 4120, "tid": 43836,
+    "args": {
+      "name": "thread 43836 ()"
+    }
+  },
+  {
+    "name": "thread_sort_index", "ph": "M", "ts": 3955327008058.500, "pid": 4120, "tid": 43836,
+    "args": {
+      "sort_index": 43836
+    }
+  },
+  {
+    "ph": "X", "cat": "Trace", "ts": 3955327007984.900, "dur": 1520.400,
+    "pid": "Spans", "tid": "PyTorch Profiler",
+    "name": "PyTorch Profiler (0)",
+    "args": {
+      "Op count": 0
+    }
+  },
+  {
+    "name": "process_sort_index", "ph": "M", "ts": 3955327007984.900,
+    "pid": "Spans", "tid": 0,
+    "args": {
+      "sort_index": 536870912
+    }
+  },
+  {
+    "name": "Iteration Start: PyTorch Profiler", "ph": "i", "s": "g",
+    "pid": "Traces", "tid": "Trace PyTorch Profiler", "ts": 3955327007984.900
+  },
+  {
+    "name": "Record Window End", "ph": "i", "s": "g",
+    "pid": "", "tid": "", "ts": 3955327009707.000
+  }
+  ],
+  "traceName": "e:/SKILLS/Course-TinyML/lab1_gpu_basics/outputs/gelu_compiled.json",
+  "displayTimeUnit": "ms",
+  "baseTimeNanoseconds": 1790857026000000000
+}

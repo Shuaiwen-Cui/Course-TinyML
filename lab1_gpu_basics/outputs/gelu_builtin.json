@@ -1,0 +1,143 @@
+
+{
+  "schemaVersion": 1,
+  "deviceProperties": [
+  ],
+  "trace_id": "A89943886EEC4FF4B17E221ACD4C214A",
+  "traceEvents": [
+  {
+    "ph": "X", "cat": "user_annotation", "name": "ProfilerStep#4", "pid": 4120, "tid": 43836,
+    "ts": 3955322509880.948, "dur": 175.600,
+    "args": {
+      "External id": 4097,"Record function id": 0, "Ev Idx": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", "name": "aten::gelu", "pid": 4120, "tid": 43836,
+    "ts": 3955322509910.948, "dur": 94.700,
+    "args": {
+      "External id": 4098,"Record function id": 0, "Ev Idx": 1
+    }
+  },
+  {
+    "ph": "X", "cat": "user_annotation", "name": "ProfilerStep#5", "pid": 4120, "tid": 43836,
+    "ts": 3955322510092.348, "dur": 58.800,
+    "args": {
+      "External id": 4099,"Record function id": 0, "Ev Idx": 2
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", "name": "aten::gelu", "pid": 4120, "tid": 43836,
+    "ts": 3955322510103.048, "dur": 30.600,
+    "args": {
+      "External id": 4100,"Record function id": 0, "Ev Idx": 3
+    }
+  },
+  {
+    "ph": "X", "cat": "user_annotation", "name": "ProfilerStep#6", "pid": 4120, "tid": 43836,
+    "ts": 3955322510165.448, "dur": 36.200,
+    "args": {
+      "External id": 4101,"Record function id": 0, "Ev Idx": 4
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", "name": "aten::gelu", "pid": 4120, "tid": 43836,
+    "ts": 3955322510171.348, "dur": 14.800,
+    "args": {
+      "External id": 4102,"Record function id": 0, "Ev Idx": 5
+    }
+  },
+  {
+    "ph": "X", "cat": "user_annotation", "name": "ProfilerStep#7", "pid": 4120, "tid": 43836,
+    "ts": 3955322510211.948, "dur": 31.000,
+    "args": {
+      "External id": 4103,"Record function id": 0, "Ev Idx": 6
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", "name": "aten::gelu", "pid": 4120, "tid": 43836,
+    "ts": 3955322510216.648, "dur": 15.800,
+    "args": {
+      "External id": 4104,"Record function id": 0, "Ev Idx": 7
+    }
+  },
+  {
+    "ph": "X", "cat": "user_annotation", "name": "ProfilerStep#8", "pid": 4120, "tid": 43836,
+    "ts": 3955322510252.148, "dur": 28.400,
+    "args": {
+      "External id": 4105,"Record function id": 0, "Ev Idx": 8
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", "name": "aten::gelu", "pid": 4120, "tid": 43836,
+    "ts": 3955322510256.848, "dur": 13.800,
+    "args": {
+      "External id": 4106,"Record function id": 0, "Ev Idx": 9
+    }
+  },
+  {
+    "ph": "X", "cat": "user_annotation", "name": "ProfilerStep#9", "pid": 4120, "tid": 43836,
+    "ts": 3955322510291.848, "dur": 31.300,
+    "args": {
+      "External id": 4107,"Record function id": 0, "Ev Idx": 10
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", "name": "aten::gelu", "pid": 4120, "tid": 43836,
+    "ts": 3955322510296.748, "dur": 16.500,
+    "args": {
+      "External id": 4108,"Record function id": 0, "Ev Idx": 11
+    }
+  },
+  {
+    "name": "thread_name", "ph": "M", "ts": 3955322509632.200, "pid": 4120, "tid": 43836,
+    "args": {
+      "name": "thread 43836 ()"
+    }
+  },
+  {
+    "name": "thread_sort_index", "ph": "M", "ts": 3955322509632.200, "pid": 4120, "tid": 43836,
+    "args": {
+      "sort_index": 43836
+    }
+  },
+  {
+    "name": "thread_name", "ph": "M", "ts": 3955322509632.200, "pid": 4120, "tid": 43836,
+    "args": {
+      "name": "thread 43836 ()"
+    }
+  },
+  {
+    "name": "thread_sort_index", "ph": "M", "ts": 3955322509632.200, "pid": 4120, "tid": 43836,
+    "args": {
+      "sort_index": 43836
+    }
+  },
+  {
+    "ph": "X", "cat": "Trace", "ts": 3955322509497.600, "dur": 836.800,
+    "pid": "Spans", "tid": "PyTorch Profiler",
+    "name": "PyTorch Profiler (0)",
+    "args": {
+      "Op count": 0
+    }
+  },
+  {
+    "name": "process_sort_index", "ph": "M", "ts": 3955322509497.600,
+    "pid": "Spans", "tid": 0,
+    "args": {
+      "sort_index": 536870912
+    }
+  },
+  {
+    "name": "Iteration Start: PyTorch Profiler", "ph": "i", "s": "g",
+    "pid": "Traces", "tid": "Trace PyTorch Profiler", "ts": 3955322509497.600
+  },
+  {
+    "name": "Record Window End", "ph": "i", "s": "g",
+    "pid": "", "tid": "", "ts": 3955322510549.300
+  }
+  ],
+  "traceName": "e:/SKILLS/Course-TinyML/lab1_gpu_basics/outputs/gelu_builtin.json",
+  "displayTimeUnit": "ms",
+  "baseTimeNanoseconds": 1790857026000000000
+}

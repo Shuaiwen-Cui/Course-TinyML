@@ -1,0 +1,5 @@
+# 先按 README 安装配套的 torch 和 torchvision，再安装这里的依赖。
+ipykernel
+matplotlib
+numpy
+torchprofile==0.1.0
